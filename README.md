@@ -15,7 +15,7 @@ Vamos assumir que a similaridade das respostas é {A} onde cada
 ### Dockerfile:
 
 ```
-FROM ruby:2.4-slim
+FROM ruby:2.5
 FROM node:latest
 
 RUN apt-get update -qq && apt-get -y install sudo
