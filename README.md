@@ -41,3 +41,14 @@ ENV BUNDLE_PATH /box
 COPY . $APP
 
 ```
+
+### Alteração com o Professor:
+
+```rails
+<div class="form-group">
+                <%= f.label :Categoria, "Professor" %>
+                <%= f.radio_button :teacher, true %>
+                <%= f.label :Categoria, "Aluno" %>
+                <%= f.radio_button :teacher, false, :checked => true %>
+              </div>
+```
